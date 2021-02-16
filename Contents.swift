@@ -42,6 +42,8 @@ var squirtle: Pokemon = Pokemon(num: 7, name: "Squirtle", type: ["Water"], heigh
 var wartortle: Pokemon = Pokemon(num: 8, name: "Wartortle", type: ["Water"], height: "3' 03", weight: 49.6, category: "Turtle", ability: ["Torrent"])
 var blastoise: Pokemon = Pokemon(num: 9, name: "Blastoise", type: ["Water"], height: "5' 03", weight: 188.5, category: "Shellfish", ability: ["Torrent"])
 
+
+//display info 
 bulbasaur.displayInfo()
 ivysaur.displayInfo()
 venusaur.displayInfo()
@@ -76,4 +78,5 @@ class GigantamaxPokemon: Pokemon {
 var charizardGiga = GigantamaxPokemon(num: 6, name: "Giga-Max Charizard", type: ["Fire", "Flying"], height: "91' 03", weight: 3192.0, category: "Flame", ability: ["Blaze"], location: "Lake of Outrage")
 
 charizardGiga.displayInfo()
+
 
